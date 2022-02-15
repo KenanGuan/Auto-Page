@@ -109,9 +109,9 @@ class auto_op:
         self.driver.find_element_by_class_name('big-user').click() # 点击买方登陆
         # time.sleep(0.5)
         self.driver.find_element_by_name("clientloginname").clear()
-        self.driver.find_element_by_name("clientloginname").send_keys("wh-21-1")
+        self.driver.find_element_by_name("clientloginname").send_keys("*****")
         self.driver.find_element_by_name("clientcodeinput").clear()
-        self.driver.find_element_by_name("clientcodeinput").send_keys("wd1234")
+        self.driver.find_element_by_name("clientcodeinput").send_keys("******")
         # 点击取得验证码，等待人工输入
         self.driver.find_element_by_id("checkCodeImg").click()
         # 循环检查页面是否跳转
